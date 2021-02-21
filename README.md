@@ -10,13 +10,12 @@
 
 ## Usage
 
-This command will drop all tables from your database and run all migrations.
+First use This command will drop all tables from your database and run all migrations.
 
 ```
 php artisan migrate:fresh
 ```
-
-By tagging on the seed option all seeders will run as well.
+Next you must adding dummy data to databse by run seeders as well.
 
 ```
 php artisan migrate:fresh --seed
