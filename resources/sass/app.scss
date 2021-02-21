@@ -1,0 +1,33 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.badge{
+    min-width: 70px;
+    font-size: .8rem;
+}
+.credit{
+    font-size: 1.2rem;
+
+    span:nth-child(2){
+        font-weight: 800;
+    }
+}
+.purchase{
+    input{
+        width: 50px;
+        height: 35px;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+        margin-right: .5rem;
+        padding-left: 10px;
+    }
+    button{
+        height: 35px;
+    }
+}
