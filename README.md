@@ -8,7 +8,7 @@
 
 # Ticket Shopping
 
-##Usage
+## Usage
 
 This command will drop all tables from your database and run all migrations.
 
