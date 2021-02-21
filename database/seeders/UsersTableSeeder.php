@@ -16,14 +16,14 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
          User::factory()->create([
-            'email'=>'o.shabani@hotmail.com',
+            'email'=>'admin@hotmail.com',
             'role'=>'admin',
         ]);
         User::factory()->count(9)->create([
             'role'=>'admin'
         ]);
         User::factory()->create([
-            'email'=>'omid@hotmail.com',
+            'email'=>'customer@hotmail.com',
             'role'=>'customer',
             'credit'=>54000,
 
