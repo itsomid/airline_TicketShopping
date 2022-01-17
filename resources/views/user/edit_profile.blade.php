@@ -5,7 +5,6 @@
         <h2 class="card-header">Update Profile</h2>
         <div class="card-body">
 
-
             @if (session('info'))
                 <div class="row">
                     <div class="col-md-12">
